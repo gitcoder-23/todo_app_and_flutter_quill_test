@@ -25,3 +25,9 @@ flutter clean
 https://stackoverflow.com/questions/68351418/flutter-quill-editor-not-working-inside-a-scrollable-form
 
 
+
+// Demo app
+https://protocoderspoint.com/flutter-quill-text-editor-text-editing-toolbar/
+
+https://youtu.be/Db09ZScHutQ
+https://youtu.be/e7XF37jVVLw

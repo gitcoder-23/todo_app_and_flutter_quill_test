@@ -21,15 +21,29 @@ class _QuillTestState extends State<QuillTest> {
         title: const Text('Quill Test'),
       ),
       body: Column(
+        // children: [
+        //   QuillToolbar.basic(controller: _controller),
+        //   Expanded(
+        //     child: Container(
+        //       child: QuillEditor.basic(
+        //         controller: _controller,
+        //         readOnly: false, // true for view only mode
+        //       ),
+        //     ),
+        //   )
+        // ],
         children: [
-          QuillToolbar.basic(controller: _controller),
-          Expanded(
-            child: Container(
-              child: QuillEditor.basic(
-                controller: _controller,
-                readOnly: false, // true for view only mode
-              ),
+          QuillToolbar.basic(
+            controller: _controller,
+            toolbarIconSize: 25,
+            iconTheme: const QuillIconTheme(
+              borderRadius: 14,
+              iconSelectedFillColor: Colors.orange,
             ),
+          ),
+          QuillEditor.basic(
+            controller: _controller,
+            readOnly: true,
           )
         ],
       ),

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:todo_app_flutter/screens/home.dart';
+import 'package:todo_app_flutter/screens/quill_test.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +19,8 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Todo App',
-      home: Home(),
+      // home: Home(),
+      home: QuillTest(),
     );
   }
 }

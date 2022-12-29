@@ -1,0 +1,27 @@
+// Flutter Quill
+https://pub.dev/packages/flutter_quill/install
+
+
+// Issue Fixed
+Build fail on latest version of FlutterError: The non-abstract class 'RawEditorState' is missing implementations for these members
+$ flutter pub upgrade --major-versions
+$ dart fix --apply
+
+
+flutter: Error: The non-abstract class 'RenderParagraphX' is missing implementations for these members, caused by sliding_up_panel-1.0.2
+https://stackoverflow.com/questions/63938216/flutter-error-the-non-abstract-class-renderparagraphx-is-missing-implementat
+
+
+I can build again :-D
+
+this is what I have done, in case some else experiences this problem:
+
+flutter channel stable
+flutter upgrade
+flutter clean
+
+
+//  Flutter-Quill editor not working inside a scrollable form
+https://stackoverflow.com/questions/68351418/flutter-quill-editor-not-working-inside-a-scrollable-form
+
+
